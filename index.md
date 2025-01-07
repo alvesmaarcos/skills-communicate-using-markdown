@@ -8,3 +8,19 @@
 ###### Under this line, there will be an image of the Yaktocat!
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+# Code lines in Markdown
+To type code lines using this language, you need to use "```(language that will be shown)\n code\n```".
+
+## Example in Java
+``` Java
+public class Shell{
+    static Adapter adp = new Adapter();
+
+    public static void main(String[] args) {
+        while(true) {
+            write("$");
+            String line = input();
+            args = line.split(" ");
+            write(line + "\n");
+```
