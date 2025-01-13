@@ -24,3 +24,16 @@ public class Shell{
             args = line.split(" ");
             write(line + "\n");
 ```
+
+# Task lists in Markdown
+
+### Text format:
+```
+- [x] Task 1
+- [ ] Task 2
+- [ ] Task 3
+```
+### Format in markdown:
+- [x] Task 1
+- [ ] Task 2
+- [ ] Task 3
